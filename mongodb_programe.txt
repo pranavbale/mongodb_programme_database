@@ -1,0 +1,58 @@
+ db.user.insert({
+     name: "Ada Lovelace",
+     codekata : 200,
+     attendence : {
+        "1Jan" : "Present",
+        "2Jan" : "Present",
+        "3Jan" : "Present",
+        "4Jan" : "Present",
+        "5Jan" : "Present",
+        "6Jan" : "Present",
+        "7Jan" : "Present",
+        "8Jan" : "Present",
+        "9Jan" : "Present"
+     },
+     topics : {
+        "Lecture 1" : "HTML & CSS Day-1",
+        "Lecture 2" : "HTML & CSS Day-2",
+        "Lecture 3" : "Javascript Day-1",
+        "Lecture 4" : "Javascript Day-2",
+        "Lecture 5" : "Javascript Day-3"
+     },
+     tasks : {
+        "Lecture 1" : "create a block on tags in HTML",
+        "Lecture 2" : "create a Web page on the basic of Html and Css",
+        "Lecture 3" : "How to install javascript in mac and windows",
+        "Lecture 4" : "explain the datatype in Javascript",
+        "Lecture 5" : "explain Looping conditions in Javascript with example"
+     },
+     company_drive : [
+        {
+            name : "HCL technology",
+            date : "1 March 2023"
+        },
+        {
+            name : "TCS"
+            date : "2 March 2023"
+        },
+        {
+            name : "Infosis"
+            date : "3 March 2023"
+        }
+     ],
+     mentors : [
+        {
+            mentor : "shiva",
+            topic : "HTML & CSS"
+        },
+        {
+            mentor : "shiva",
+            topic : "Javascript"
+        },
+        {
+            mentor : "Kailash",
+            topic : "Javascript and DOM"
+        },
+
+     ]
+ })
